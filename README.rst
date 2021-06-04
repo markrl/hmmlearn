@@ -1,6 +1,9 @@
 hmmlearn
 ========
 
+This is a version of hmmlearn that removes all dependencies except for core
+Python libraries, Numpy, and SciPy.
+
 | |GitHub| |PyPI|
 | |Read the Docs| |Build| |CodeCov|
 

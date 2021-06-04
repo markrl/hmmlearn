@@ -17,12 +17,12 @@ import logging
 import numpy as np
 from scipy import linalg, special
 from sklearn import cluster
-from sklearn.utils import check_random_state
+# from sklearn.utils import check_random_state
 
 from . import _utils
 from .stats import log_multivariate_normal_density
 from .base import _BaseHMM
-from .utils import fill_covars, log_mask_zero, log_normalize, normalize
+from .utils import fill_covars, log_mask_zero, log_normalize, normalize, check_random_state
 
 __all__ = ["GMMHMM", "GaussianHMM", "MultinomialHMM"]
 
